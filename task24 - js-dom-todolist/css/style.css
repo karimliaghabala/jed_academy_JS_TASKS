@@ -6,22 +6,24 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.342);
 }
 body .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   border: 1px solid;
-  width: 400px;
-  background-image: url(../images/BG.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0 40px;
+  width: 300px;
+  border-radius: 5%;
+  background: linear-gradient(45deg, rgb(105, 105, 107), rgb(73, 80, 82), white);
+  padding: 20px 40px;
+  margin-top: 90px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 body .container h1 {
   color: white;
+  padding: 10px 0;
 }
 body .container .main .input {
   width: 300px;
