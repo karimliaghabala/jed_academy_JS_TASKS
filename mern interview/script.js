@@ -72,3 +72,5 @@ let guys = ['Ada Lovelace, 1915', 'Nicola Tesla, 1856', 'Alan Turing, 2012']
 
 let sortG = guys.sort((a,b)=>a.split(', ')[1] - b.split(', '[1]))
 console.log(sortG);
+
+
